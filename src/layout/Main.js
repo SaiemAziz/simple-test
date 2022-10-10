@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {createContext} from 'react';
 import Nav from '../components/Nav';
-import {Outlet} from 'react-router-dom'
+import {Outlet, useLoaderData} from 'react-router-dom'
+
+export const TopicContext = createContext([])
 const Main = () => {
+    let x = useLoaderData();
     return (
-        <div className='bg-slate-800'>
-            <Nav></Nav>
-            <Outlet></Outlet>
-        </div>
+        <TopicContext.Provider value={x.data}>
+            <div className=''>
+                <Nav></Nav>
+                <Outlet></Outlet>
+            </div>
+        </TopicContext.Provider>
     );
 };
 
