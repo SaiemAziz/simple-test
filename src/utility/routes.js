@@ -3,6 +3,10 @@ import Main from '../layout/Main'
 import ErrorPage from '../layout/ErrorPage'
 import Home from '../components/Home'
 import Quiz from '../components/Quiz'
+import Statistics from '../components/Statistics'
+import Blog from '../components/Blog'
+
+
 export const router = createBrowserRouter([
     {
         path: '/',
@@ -13,6 +17,18 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home></Home>
+            },
+            {
+                path: 'home',
+                element: <Home></Home>
+            },
+            {
+                path: 'statistics',
+                element: <Statistics></Statistics>
+            },
+            {
+                path: 'blog',
+                element: <Blog></Blog>
             },
             {
                 path: 'topic/:id',

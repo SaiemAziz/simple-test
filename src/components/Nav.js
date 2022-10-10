@@ -13,7 +13,7 @@ const Nav = () => {
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
               isActive ? 'text-green-400' : undefined
-            } to=""><span className="font-bold">Home</span></NavLink>
+            } to="home"><span className="font-bold">Home</span></NavLink>
         </Navbar.Link>
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
