@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const Quiz = () => {
     let quizes = useLoaderData()
     let all = quizes.data.questions;
-    
+    let title = quizes.data.name;
+    let total = quizes.data.total;
     let check = (option, ans) => {
         if(ans === option)
         toast.success('Correct answer', {
@@ -47,6 +48,8 @@ const Quiz = () => {
     }
     return (
         <div className='mt-5 mx-2'>
+            <h1 className='text-3xl font-bold text-red-700 mt-5'>{title}</h1>
+            <h1 className='text-xl font-bold text-red-700 mb-5'>Total: {total} questions</h1>
             {
                 all.map((single, idx) => <Single
                 key={single.id}

@@ -12,17 +12,17 @@ const Nav = () => {
       <Navbar.Collapse >
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
-              isActive ? 'text-green-400' : undefined
-            } to="home"><span className="font-bold">Home</span></NavLink>
+              isActive ? 'text-blue-500' : undefined
+            } to=""><span className="font-bold">Home</span></NavLink>
         </Navbar.Link>
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
-              isActive ? 'text-green-400' : undefined
+              isActive ? 'text-blue-500' : undefined
             } to="statistics"><span className="font-bold">Statistics</span></NavLink>
         </Navbar.Link>
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
-              isActive ? 'text-green-400' : undefined
+              isActive ? 'text-blue-500' : undefined
             } to="blog"><span className="font-bold">Blog</span></NavLink>
         </Navbar.Link>
       </Navbar.Collapse>
