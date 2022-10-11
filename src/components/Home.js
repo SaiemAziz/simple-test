@@ -6,9 +6,9 @@ const Home = () => {
     let topics = useContext(TopicContext);
     return (
         <div className='mt-5'>
-            <div className='p-5 grid sm:grid-cols-2 gap-5 grid-cols-1'>
+            <div className='p-5 grid sm:grid-cols-2 gap-5 grid-cols-1 max-w-3xl mx-auto'>
                 <div>
-                    <img className=' mx-auto sm:mr-0 rounded-3xl' src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-9/155485640_1145998085822360_3925473345700600028_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=19026a&_nc_ohc=meyReen1TuQAX90ady8&_nc_ht=scontent.fcgp7-1.fna&oh=00_AT_H3OLYTnNVxECcFPyjKnCfvD56R8HWpUj_b7jwZ-QB6g&oe=63699C59" alt="" />
+                    <img className=' mx-auto sm:mr-0 rounded-3xl' src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-9/147345712_1132270743861761_4143954834731602449_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=19026a&_nc_ohc=0APILNuTJkEAX90mKCV&_nc_ht=scontent.fcgp7-1.fna&oh=00_AT_7tu_qQpJ9xIo8dM8z_i8Z05Qdh2ARMldhMCWpUXSWkQ&oe=636B7CE7" alt="" />
                 </div>
                 <div className='sm:text-left flex flex-col justify-around'>
                     <h1 className='text-3xl text-yellow-700 font-bold'>Sayem Aziz Chowdhury
