@@ -19,7 +19,7 @@ const Single = ({single, idx, check, show}) => {
     question = question.slice(3,question.length-4).replace('&nbsp;'," ");
     let ans = correctAnswer;
     return (
-        <div className='overflow-hidden bg-red-900 rounded-xl mb-2 p-4 max-w-2xl mx-auto text-white text-left'>
+        <div className='overflow-hidden bg-red-900 rounded-xl mb-2 p-4 max-w-2xl mx-auto text-white text-left shadow-2xl'>
             <div className='flex justify-between items-center mb-3'>
                 <h1 className='text-xl mb-2 font-bold w-11/12'
                     ><span className='text-blue-300'

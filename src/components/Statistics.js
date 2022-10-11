@@ -12,7 +12,7 @@ const Statistics = () => {
     let topics = useContext(TopicContext)
 
   return (
-    <div className="w-fit mx-auto mt-10">
+    <div className="w-fit mx-auto mt-20">
         <AreaChart
       width={400}
       height={400}

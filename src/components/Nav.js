@@ -4,7 +4,8 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <Navbar fluid={true} rounded={true}>
+    <div className="shadow-xl sticky top-0">
+      <Navbar fluid={true} rounded={true}>
       <NavLink className={'text-4xl bg-clip-text bg-gradient-to-r from-lime-700 to-red-700 italic font-bold text-transparent'} to=''>
         Simple Test
       </NavLink>
@@ -27,6 +28,7 @@ const Nav = () => {
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
+    </div>
   );
 };
 
