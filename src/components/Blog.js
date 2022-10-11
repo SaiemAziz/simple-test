@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <Accordion style={{"margin-top": "50px"}} flush={true}>
       <Accordion.Panel>
-        <Accordion.Title>Purpose of react router?</Accordion.Title>
+        <Accordion.Title><h1 className="text-2xl text-amber-700">Purpose of react router?</h1></Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500">
           React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
@@ -13,7 +13,7 @@ const Blog = () => {
         </Accordion.Content>
       </Accordion.Panel>
       <Accordion.Panel>
-        <Accordion.Title>How context API works?</Accordion.Title>
+        <Accordion.Title><h1 className="text-2xl text-amber-700">How context API works?</h1></Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
           The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on.
@@ -22,7 +22,7 @@ const Blog = () => {
       </Accordion.Panel>
       <Accordion.Panel>
         <Accordion.Title>
-          Describe something about useRef hook?
+          <h1 className="text-2xl text-amber-700">Describe something about useRef hook?</h1>
         </Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">

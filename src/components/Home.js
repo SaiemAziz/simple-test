@@ -18,6 +18,7 @@ const Home = () => {
                     <p className='text-xl text-justify'>Hello, I am a junior web developer who loves to play games beside education. I also like to eat foods. I watch web series and anime often when i have leisure time.</p>
                 </div>
             </div>
+            <h1 className='text-2xl font-bold my-5 text-green-600'>Give a Test from below</h1>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 px-5 mb-5'>
             {
                 topics.map(topic => <Topic 
