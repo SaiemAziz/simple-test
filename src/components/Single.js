@@ -16,7 +16,24 @@ const Opt = ({option, idx, ans, check})=> {
 
 const Single = ({single, idx, check, show}) => {
     let {question, options, correctAnswer} = single
-    question = question.slice(3,question.length-4).replace('&nbsp;'," ");
+    question = question.replace('&nbsp;'," ");
+    question = question.replace('&nbsp;'," ");
+    question = question.replace('&nbsp;'," ");
+    question = question.replace('&nbsp;'," ");
+    question = question.replace('&nbsp;'," ");
+    question = question.replace('&nbsp;'," ");
+    question = question.replace('<p>'," ");
+    question = question.replace('<p>'," ");
+    question = question.replace('<p>'," ");
+    question = question.replace('<p>'," ");
+    question = question.replace('<p>'," ");
+    question = question.replace('<p>'," ");
+    question = question.replace('</p>'," ");
+    question = question.replace('</p>'," ");
+    question = question.replace('</p>'," ");
+    question = question.replace('</p>'," ");
+    question = question.replace('</p>'," ");
+    question = question.replace('</p>'," ");
     let ans = correctAnswer;
     return (
         <div className='overflow-hidden bg-red-900 rounded-xl mb-2 p-4 max-w-2xl mx-auto text-white text-left shadow-2xl'>
