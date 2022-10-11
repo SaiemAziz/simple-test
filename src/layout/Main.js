@@ -7,7 +7,7 @@ const Main = () => {
     let x = useLoaderData();
     return (
         <TopicContext.Provider value={x.data}>
-            <div className='max-w-5xl mx-auto'>
+            <div className='max-w-7xl mx-auto'>
                 <Nav></Nav>
                 <Outlet></Outlet>
             </div>
