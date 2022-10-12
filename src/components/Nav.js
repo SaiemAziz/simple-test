@@ -14,17 +14,17 @@ const Nav = () => {
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
               isActive ? 'text-blue-500' : undefined
-            } to=""><span className="font-bold">Home</span></NavLink>
+            } to="/home"><span className="font-bold">Home</span></NavLink>
         </Navbar.Link>
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
               isActive ? 'text-blue-500' : undefined
-            } to="statistics"><span className="font-bold">Statistics</span></NavLink>
+            } to="/statistics"><span className="font-bold">Statistics</span></NavLink>
         </Navbar.Link>
         <Navbar.Link>
           <NavLink className={({ isActive }) =>
               isActive ? 'text-blue-500' : undefined
-            } to="blog"><span className="font-bold">Blog</span></NavLink>
+            } to="/blog"><span className="font-bold">Blog</span></NavLink>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
